@@ -1,0 +1,38 @@
+.task-item {
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.task-item:hover {
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
+    transform: scale(1.02);
+}
+
+.task-item.pending {
+    background-color: #fff3cd;
+    /* Light Yellow */
+}
+
+.task-item.in-progress {
+    background-color: #d1ecf1;
+    /* Light Blue */
+}
+
+.task-item.completed {
+    background-color: #d4edda;
+    /* Light Green */
+}
+
+.task-item h3 {
+    color: #343a40;
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+
+.task-item p {
+    color: #6c757d;
+    margin-bottom: 8px;
+}

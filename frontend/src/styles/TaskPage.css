@@ -1,0 +1,29 @@
+.task-page {
+    background: linear-gradient(135deg, #e3f2fd, #bbdefb);
+    border-radius: 8px;
+    padding: 40px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 70px;
+}
+
+.task-page h2 {
+    color: #333;
+    font-size: 26px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.task-page button {
+    background: linear-gradient(135deg, #2196f3, #64b5f6);
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.task-page button:hover {
+    background: linear-gradient(135deg, #64b5f6, #2196f3);
+    transform: scale(1.05);
+}
